@@ -1,0 +1,118 @@
+{
+  "lucuma": {
+    "ingredients": [
+      "Proteína ISO Whey (suero de leche)",
+      "Mantequilla de maní",
+      "Jarabe de dátil",
+      "Harina de avena",
+      "Lúcuma en polvo"
+    ],
+    "nutrition": {
+      "weight": "71.3 g",
+      "kcal": "274",
+      "fat": "11 g",
+      "sat": "1 g",
+      "trans": "0 g",
+      "sodium": "17 mg",
+      "carbs": "34 g",
+      "sugar": "26.1 g",
+      "fiber": "4 g",
+      "protein": "12 g"
+    }
+  },
+  "menta": {
+    "ingredients": [
+      "Proteína ISO Whey (suero de leche)",
+      "Harina de almendra",
+      "Harina de avena",
+      "Jarabe de dátil",
+      "Chocolate al 98% endulzado con stevia",
+      "Mantequilla de maní",
+      "Quinoa pop",
+      "Aceite esencial de menta"
+    ],
+    "nutrition": {
+      "weight": "60.7 g",
+      "kcal": "299",
+      "fat": "17 g",
+      "sat": "1 g",
+      "trans": "0 g",
+      "sodium": "8 mg",
+      "carbs": "21 g",
+      "sugar": "9.9 g",
+      "added": "0 g",
+      "fiber": "3 g",
+      "protein": "12 g"
+    }
+  },
+  "cacao": {
+    "ingredients": [
+      "Proteína de tarwi",
+      "Jarabe de dátil",
+      "Harina de avena",
+      "Nibs de cacao",
+      "Mantequilla de cashew y canela",
+      "Chocolate al 70% endulzado con panela",
+      "Quinoa pop"
+    ],
+    "nutrition": {
+      "weight": "61.7 g",
+      "kcal": "279",
+      "fat": "17 g",
+      "sat": "2 g",
+      "trans": "0 g",
+      "sodium": "8 mg",
+      "carbs": "23 g",
+      "sugar": "9.1 g",
+      "fiber": "4 g",
+      "protein": "10 g"
+    }
+  },
+  "maras": {
+    "ingredients": [
+      "Proteína de tarwi",
+      "Jarabe de dátil",
+      "Harina de avena",
+      "Almendras",
+      "Semillas de calabaza activadas",
+      "Chocolate al 98% endulzado con stevia",
+      "Mantequilla de cashew y canela",
+      "Canela en polvo",
+      "Sal de Maras"
+    ],
+    "nutrition": {
+      "weight": "62.8 g",
+      "kcal": "299",
+      "fat": "16 g",
+      "sat": "1 g",
+      "trans": "0 g",
+      "sodium": "53 mg",
+      "carbs": "25 g",
+      "sugar": "9.7 g",
+      "fiber": "4 g",
+      "protein": "10 g"
+    }
+  },
+  "superfoods": {
+    "ingredients": [
+      "Mantequilla de maní",
+      "Jarabe de dátil",
+      "Lúcuma en polvo",
+      "Maca en polvo",
+      "Cacao en polvo",
+      "Chocolate al 70% endulzado con panela"
+    ],
+    "nutrition": {
+      "weight": "63.4 g",
+      "kcal": "282",
+      "fat": "16 g",
+      "sat": "2 g",
+      "trans": "0 g",
+      "sodium": "13 mg",
+      "carbs": "27 g",
+      "sugar": "14.6 g",
+      "fiber": "5 g",
+      "protein": "10 g"
+    }
+  }
+}

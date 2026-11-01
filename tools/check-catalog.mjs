@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const data=fs.readFileSync(path.join(root,'js/products.js'),'utf8');
+const components=fs.readFileSync(path.join(root,'js/app.js'),'utf8').split('const $=')[0];
+const elements=new Map();
+const context={document:{querySelector(selector){if(!elements.has(selector))elements.set(selector,{innerHTML:''});return elements.get(selector)}}};
+vm.runInNewContext(data+`;CATALOG_DATA.push({...CATALOG_DATA[0],id:'test-only',category:'test-only',discover:true});`+components+`;renderFlavors();renderFilters();renderFlavorDetail('test-only');`,context);
+assert.match(elements.get('#flavor-grid').innerHTML,/#sabor\/test-only/);
+assert.match(elements.get('#catalog-filters').innerHTML,/data-filter="test-only"/);
+assert.match(elements.get('#flavor-detail-content').innerHTML,/data-buy-flavor="test-only"/);
+console.log('Correcto: agregar un registro genera su galería, filtro y ficha sin modificar las plantillas. El registro de prueba no se guarda.');

@@ -1,0 +1,230 @@
+{
+  ".gitignore": {
+    "bytes": 71,
+    "sha256": "d496b7295f7c5528153c1726334a05f3af2bc2faac4a1ab6e2b7ff936258e80d"
+  },
+  ".nojekyll": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "assets/brand/logo-optimized.webp": {
+    "bytes": 22060,
+    "sha256": "ab7f0def9e75020dcd2bee65265d734a44b0501e71c72a55c57283974fff5043"
+  },
+  "assets/brand/logo-transparent.png": {
+    "bytes": 568907,
+    "sha256": "6f1be8f5b4362e4fa9bd7db3b680314d59fe4eb689b5dc0aab29eff5fae72615"
+  },
+  "assets/fonts/barlow-condensed-800.woff2": {
+    "bytes": 24924,
+    "sha256": "85ee79eabb0e31bc42aa1f2863c154c4995efb53e9054d72483d066f875ef4b0"
+  },
+  "assets/fonts/Barlow-Condensed-OFL.txt": {
+    "bytes": 4377,
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+  },
+  "assets/fonts/dm-sans-400.woff2": {
+    "bytes": 15420,
+    "sha256": "ed2dbf05d34c69686581e9f8b87fb36d2d7882eb18aa69de553892eaae4f3ecd"
+  },
+  "assets/fonts/dm-sans-700.woff2": {
+    "bytes": 15468,
+    "sha256": "442fbd6e5fbd5e084d4423d883286ab72ce4b55770f99b955c73899b1b354752"
+  },
+  "assets/fonts/DM-Sans-OFL.txt": {
+    "bytes": 4482,
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+  },
+  "assets/ingredients/cacao.svg": {
+    "bytes": 217541,
+    "sha256": "3e925965652956ad0680c20921f763e63cde06346f241e00a52bcd44ca65879f"
+  },
+  "assets/ingredients/lucuma.svg": {
+    "bytes": 194844,
+    "sha256": "c9bbba4fe94b6c6d3af05292f66ffd0f5855d707de6489c3ce112e7aed1830b1"
+  },
+  "assets/ingredients/maras.svg": {
+    "bytes": 205590,
+    "sha256": "c4a0815d453525ce97892e523ec812e1d0387b0f8e94beaa4d22d64325e6bcb1"
+  },
+  "assets/ingredients/menta.svg": {
+    "bytes": 220027,
+    "sha256": "10f64275396b4f0ba8d5eee0410db841991e34bed851dd217428532ff75beb37"
+  },
+  "assets/ingredients/superfoods.svg": {
+    "bytes": 210295,
+    "sha256": "fdca7325f79c4fc8cfc875d7c6e6574ac69aa88b741a5f9f8db056df4340befd"
+  },
+  "assets/media/founders.webp": {
+    "bytes": 51478,
+    "sha256": "5e6de5ea349d7531317d9fa377ee2b2d32441678ae344c77e2bc9e9ef0d7c066"
+  },
+  "assets/media/hand-only.webp": {
+    "bytes": 74452,
+    "sha256": "c8c9aad8068300bf6a129126c7e1e5dbae317fdd89685d276bfdca0823e134d5"
+  },
+  "assets/media/hand.webp": {
+    "bytes": 134498,
+    "sha256": "51fa79c44931324d87bfccae24216e003b8257b1ab7e50a1c3b49687d572bbcd"
+  },
+  "assets/media/motion-bar.webp": {
+    "bytes": 141348,
+    "sha256": "fd57d699fbae8b4097c18e5fc7eef5457721446dae4c7ea66d069471093f022b"
+  },
+  "assets/media/portada-cinco-barras.webp": {
+    "bytes": 183334,
+    "sha256": "6b7634def8ac7f34735d15ab3743ffd2fda1b96ddce14a460d2f98a8c1ef81ef"
+  },
+  "assets/originals/cacao-nutricion.jpeg": {
+    "bytes": 232734,
+    "sha256": "17f96fb38deadf9cc6ff603679d059802c011b14aab55b28546d4936e7a92a62"
+  },
+  "assets/originals/cacao.jpeg": {
+    "bytes": 252405,
+    "sha256": "6708657fab49c361b2220df9ae7600c7b097116362066ab724efe1275d745ce8"
+  },
+  "assets/originals/cacao.webp": {
+    "bytes": 161178,
+    "sha256": "79389a74b9aed891552221edbe80f8daa2667a94ab83d136e452e07bcbbb2975"
+  },
+  "assets/originals/cover-original.png": {
+    "bytes": 2070310,
+    "sha256": "ccbf3142f2626d6dcb8f550e234f9f954f8af80b23308ce6b9fc000a2f2cb4e4"
+  },
+  "assets/originals/logo-original.png": {
+    "bytes": 1181730,
+    "sha256": "9b0086ea92f597bb67bfb3678bc269ad547271ae126f5026af5c96db14969daf"
+  },
+  "assets/originals/lucuma-nutricion.jpeg": {
+    "bytes": 248004,
+    "sha256": "2d12ad65b3391e6ce05f817db2689bef726d6c21f08b732921f8566ee2853f7d"
+  },
+  "assets/originals/lucuma.jpeg": {
+    "bytes": 249931,
+    "sha256": "1f757a7b276da091a927d8e863e57ad7486409ebe9c758f3d05426261264773b"
+  },
+  "assets/originals/lucuma.webp": {
+    "bytes": 142668,
+    "sha256": "25e37a7d5adc98df7fc4b945706f25deaafe1060be138612ae7e890d13995b78"
+  },
+  "assets/originals/maras-nutricion.jpeg": {
+    "bytes": 296408,
+    "sha256": "b751e40b3e2ac824edba02377cd051648a0a6a4b45e42f5b4143da9d8572e40d"
+  },
+  "assets/originals/maras.jpeg": {
+    "bytes": 268209,
+    "sha256": "bfbf42205a8461af5df6c296b60883b28bed2cbedd06be27d77d364833cf94c3"
+  },
+  "assets/originals/maras.webp": {
+    "bytes": 152198,
+    "sha256": "45cfb137407b23bab7cd58a8ad1782507df3ad3c356bbf16d4475b62c8477871"
+  },
+  "assets/originals/menta-nutricion.jpeg": {
+    "bytes": 188973,
+    "sha256": "ed4b8b259d0127f26500b144173beab58fa15b630828e1070e8bb6f043e0c056"
+  },
+  "assets/originals/menta.jpeg": {
+    "bytes": 273114,
+    "sha256": "1871c76f2950504ab855ee9d1e555ebb782233604fd5f3fe13e84d54841e0e56"
+  },
+  "assets/originals/menta.webp": {
+    "bytes": 162944,
+    "sha256": "abd2c8a1cafeb4fb5454b71f03afd33b89cb02e7da7020ca4387bbc7f289588d"
+  },
+  "assets/originals/mini-original.png": {
+    "bytes": 755842,
+    "sha256": "d2ca9ea46e70b67212aab6d072a3b10dfc4e46adecc0deb925c81acc97788331"
+  },
+  "assets/originals/superfoods-nutricion.jpeg": {
+    "bytes": 294745,
+    "sha256": "61d3c15325f7a987bd9b7025ca83aa4d679d132f1e266457eac3c5a1d4809c1f"
+  },
+  "assets/originals/superfoods.jpeg": {
+    "bytes": 237155,
+    "sha256": "a3c7058ca797b69bab223df12e7d4d0eb07e06c91286947e20b7f684b6061bbc"
+  },
+  "assets/originals/superfoods.webp": {
+    "bytes": 153726,
+    "sha256": "b7bddba94cdb648be4cccf14fafbdbf181b01351796db70e65f0ec52d942ded0"
+  },
+  "assets/products/cacao.svg": {
+    "bytes": 217195,
+    "sha256": "82b7e3bf94ce4a74ff76ce80438594f7e30a0979aa8cb3cdb213e38437b97942"
+  },
+  "assets/products/lucuma.svg": {
+    "bytes": 192468,
+    "sha256": "915213b138d724dca0c2f4cd36a68c650104eba227d2c5f984c38e108fbe43b6"
+  },
+  "assets/products/maras.svg": {
+    "bytes": 205273,
+    "sha256": "b43b0343b4ecd37e40c6c8727d91dc820004c71ba71ad6acfffaed0ac3678d1f"
+  },
+  "assets/products/menta.svg": {
+    "bytes": 219584,
+    "sha256": "788f2ee52baa3c2effaf130a32c5faf093b94c70f2ea53adb0eba48d122b9f3c"
+  },
+  "assets/products/mini.webp": {
+    "bytes": 114668,
+    "sha256": "d31d495a02bd7caf1d47ec9394a4923444148118afe1a386a86b9d4aadd1d7ae"
+  },
+  "assets/products/superfoods.svg": {
+    "bytes": 207340,
+    "sha256": "4e701a8bca9a674254521665d88cf168ee1c8c61b886653a4449fc885d179b37"
+  },
+  "css/flavors.css": {
+    "bytes": 8182,
+    "sha256": "9c40fa30d113b2419e93267eff9aa0bc8d5a97d923019e8ccae154148ef7fa7d"
+  },
+  "css/styles.css": {
+    "bytes": 60047,
+    "sha256": "97c0cdcde7434e220586760a021e66c7dba937ff9c07e78e36333172e7e54674"
+  },
+  "docs/datos-confirmados.json": {
+    "bytes": 2701,
+    "sha256": "6a059631d912fc334cc167a8df0856c0bc6790d0985dad0aa7d6a99206887915"
+  },
+  "docs/GUIA-PUBLICACION.md": {
+    "bytes": 2042,
+    "sha256": "83fce64766cc70caa601f93b8df21f54cffd2d1c0bcdfdfb482fdaab36417f84"
+  },
+  "docs/IMAGENES-Y-DATOS.md": {
+    "bytes": 1767,
+    "sha256": "ed172df779e2de6d25f285656f95ab60da4e7966e1a2d17f43e9306a168bc9ea"
+  },
+  "docs/MANTENIMIENTO.md": {
+    "bytes": 1901,
+    "sha256": "1b515c04a61eec86ebdf45a14e8a6e72dfaaceb9ef0d777b61309ecc79e08592"
+  },
+  "docs/VERIFICACION.md": {
+    "bytes": 2560,
+    "sha256": "f8de42f32c97382322dde5556599b59d35895273c0ff8a6df7d505eeffef415d"
+  },
+  "index.html": {
+    "bytes": 10329,
+    "sha256": "f7a20137e5de7d0faef6e02ea2989bc2f849295d021d80953e1cf6c3a376086c"
+  },
+  "js/app.js": {
+    "bytes": 20876,
+    "sha256": "701caea56e4d418ab6eb1ec19acb042f0638f19ec984bd15359dd4a095aa4590"
+  },
+  "js/products.js": {
+    "bytes": 6455,
+    "sha256": "4546ffe526e92317243cc891e9b9e91a549fa9452995fd99b4ac9887aa312829"
+  },
+  "README.md": {
+    "bytes": 5733,
+    "sha256": "96c1a0f6f8aff1dfb6fca4547bd954a60a57d4c8687d6dccae6249667833d98b"
+  },
+  "tools/check-catalog.mjs": {
+    "bytes": 1179,
+    "sha256": "14eb924f1b88afe2be2b58eb7029a93c56813ef0da5d5f014e06d2bdd0da9855"
+  },
+  "tools/serve.mjs": {
+    "bytes": 1186,
+    "sha256": "b0410ac1e31a8155f68dd6b2a653aba9e2d8e3541975d1db9697ec3f081e1dd9"
+  },
+  "tools/verify.py": {
+    "bytes": 2206,
+    "sha256": "1863b344d7ac0960b7dc9a10be2abe65229921a36c88af36474dc03552f3ad56"
+  }
+}

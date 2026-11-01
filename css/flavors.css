@@ -1,0 +1,62 @@
+/* Flavor views: contained photography, readable type, no sticky overlap. */
+:root{--cream:#ffe7b6;--ink:#3f271d}
+.flavors-view{max-width:1600px;padding:46px 5% 76px}
+.flavors-heading .eyebrow{font-size:13px;color:var(--cream)}
+.flavors-heading>p{font-size:17px;color:var(--cream)}
+.flavor-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:40px 30px;max-width:1250px;margin:0 auto}
+.flavor-card{display:flex;flex-direction:column;align-items:center;flex:0 0 calc((100% - 60px)/3)}
+.flavor-stage{width:100%;height:350px;position:relative;top:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.46fr);align-items:end;gap:8px;padding:20px 22px 22px;background:linear-gradient(160deg,#4b2c2355,#4b2c2399);border:1px solid #f2c16c20;border-radius:110px 110px 16px 16px;overflow:visible;isolation:isolate}
+.flavor-stage .flavor-photo{position:static;width:100%;height:100%;min-width:0;max-width:100%;max-height:100%;object-fit:contain;object-position:center;overflow:visible;filter:contrast(1.04) saturate(1.04) drop-shadow(0 7px 7px #24140b35);transform:none;transition:none}
+.flavor-stage{grid-template-rows:minmax(0,1fr)}
+.flavor-stage .flavor-photo{min-height:0;align-self:stretch}
+.flavor-stage .ingredient-photo{position:static;display:block;width:100%;height:110px;max-width:100%;max-height:100%;object-fit:contain;object-position:center bottom;aspect-ratio:auto;border:0;border-radius:0;background:none;opacity:1;filter:drop-shadow(0 6px 5px #24140b30);margin-bottom:12px}
+a.flavor-stage:hover .flavor-photo{transform:none}
+.flavor-category{font-size:12px;line-height:1.5;margin:18px 0 8px;color:var(--cream)}
+.flavor-card h2{font-size:clamp(28px,2.8vw,40px);line-height:1.02;min-height:2.1em;margin:0 0 18px;max-width:100%;letter-spacing:-.02em}
+.flavor-discover{font-size:14px;min-height:48px;margin-top:auto;padding:13px 21px;max-width:none}
+.flavor-detail-view{max-width:1350px;padding:42px 5% 65px;color:var(--cream)}
+#flavor-detail-content{display:block}
+.flavor-overview{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:48px;align-items:start}
+.flavor-detail-photo{position:relative;top:auto;height:600px;max-width:100%;margin:0;padding:28px 28px 30px;align-self:start}
+.flavor-detail-photo .ingredient-photo{height:160px;margin-bottom:20px}
+.flavor-detail-copy{min-width:0}
+.flavor-detail-copy .eyebrow{font-size:13px;color:var(--gold);margin-bottom:14px}
+.flavor-detail-copy h1{font-size:clamp(46px,5vw,72px);line-height:1;letter-spacing:-.025em;color:var(--gold);margin:0 0 20px}
+.flavor-intro{font-size:18px;line-height:1.6;margin:0 0 21px}
+.flavor-traits{gap:8px;margin-bottom:26px}
+.flavor-traits span{font-size:13px;line-height:1.4;padding:8px 12px;border-color:#ffe7b65c;color:var(--cream)}
+.flavor-detail-copy h2{font-size:34px;line-height:1.1;letter-spacing:-.015em;color:var(--gold);margin-bottom:16px}
+.flavor-ingredients ul{columns:1;list-style:disc;padding-left:20px;margin:0}
+.flavor-ingredients li{font-size:16px;line-height:1.5;padding-bottom:8px;padding-left:2px}
+.ingredient-note{font-size:14px;line-height:1.6;color:var(--cream);margin:12px 0 24px;padding:13px 0;border-color:#ffe7b63d}
+.flavor-moment p{font-size:16px;line-height:1.65;margin-bottom:22px}
+.flavor-buy{font-size:16px;min-height:54px;margin:0}
+.flavor-nutrition{display:block;width:min(100%,780px);margin:44px auto 0;padding:28px 32px 24px;background:#ffe9c3;color:var(--ink);border:1px solid #fff2d9;border-radius:20px;box-shadow:0 10px 25px #29170d20;position:relative;isolation:isolate}
+.nutrition-heading{padding-bottom:18px}
+.flavor-nutrition .eyebrow{font-size:12px;letter-spacing:.08em;font-weight:700;margin:0 0 8px;color:#68422f}
+.flavor-nutrition h2{font-family:Barlow,sans-serif;font-size:38px;line-height:1.05;letter-spacing:-.015em;margin:0 0 12px;color:var(--ink)}
+.flavor-nutrition p{font-size:15px;line-height:1.55;margin:0}
+.flavor-nutrition table{width:100%;font-size:16px;line-height:1.45;border-collapse:collapse;table-layout:fixed;font-variant-numeric:tabular-nums;color:var(--ink)}
+.flavor-nutrition thead th{font-size:13px;text-transform:uppercase;letter-spacing:.03em;font-weight:700;background:#ead1aa;border-top:2px solid #68422f;border-bottom:2px solid #68422f;padding:10px 12px}
+.flavor-nutrition th:first-child{width:72%}
+.flavor-nutrition th,.flavor-nutrition td{padding:9px 12px;border-bottom:1px solid #68422f38;vertical-align:middle}
+.flavor-nutrition tbody th{text-align:left;font-weight:400}
+.flavor-nutrition th:last-child,.flavor-nutrition td{text-align:right;font-weight:700;white-space:nowrap}
+.flavor-nutrition tr:last-child th,.flavor-nutrition tr:last-child td{border-bottom:0}
+.nutrition-source{max-width:780px;font-size:13px;line-height:1.6;margin:18px auto 0;color:var(--cream)}
+.closing-flavor-message{font-size:18px;line-height:1.6;margin:0;color:var(--cream)}
+.closing-flavor-message strong{font-weight:700}
+.story-facts.facts-step-2{max-width:450px}
+/* Product views use the same shared full packet assets. */
+.product-image .product-photo-shadow .flavor-photo,.product-card:hover .product-image .flavor-photo{position:static;inset:auto;width:100%;height:100%;padding:14px 5%;object-fit:contain;transform:none;filter:contrast(1.04) saturate(1.04) drop-shadow(0 7px 5px #24140b35);clip-path:none}
+.cart-pack-thumb .flavor-photo{width:100%;height:100%;object-fit:contain;position:static;filter:none}
+@media(min-width:701px) and (max-width:1000px){.flavor-grid{max-width:760px}.flavor-card{flex-basis:calc((100% - 30px)/2)}.flavor-overview{gap:30px}.flavor-detail-photo{height:500px;padding:18px}.flavor-detail-copy h1{font-size:48px}.flavor-detail-photo .ingredient-photo{height:110px}}
+@media(max-width:700px){
+ .flavors-view{padding:30px 5% 70px}.flavors-heading{margin-bottom:30px}.flavors-heading .eyebrow{font-size:11px}.flavors-heading>p{font-size:15px;line-height:1.6}.flavors-heading h1{font-size:clamp(38px,10vw,58px)}
+ .flavor-grid{gap:30px 14px}.flavor-card{flex-basis:calc((100% - 14px)/2)}.flavor-stage{height:245px;padding:14px 10px;gap:3px;grid-template-columns:minmax(0,1fr) minmax(0,.32fr);border-radius:65px 65px 12px 12px}.flavor-stage .ingredient-photo{height:56px;margin-bottom:8px}.flavor-category{font-size:10px;margin-top:14px}.flavor-card h2{font-size:26px;line-height:1.05;min-height:3.15em;margin-bottom:14px}.flavor-discover{font-size:12px;min-height:46px;padding:12px 9px;gap:7px;width:100%;max-width:none}
+ .flavor-detail-view{padding:26px 5% 62px}.flavor-overview{display:flex;flex-direction:column;gap:30px}.flavor-detail-photo{height:410px;max-width:440px;align-self:center;width:100%;padding:20px 28px;grid-template-columns:minmax(0,1fr) minmax(0,.40fr)}.flavor-detail-photo .ingredient-photo{height:105px;margin-bottom:12px}
+ .flavor-detail-copy h1{font-size:clamp(43px,12vw,62px)}.flavor-detail-copy .eyebrow{font-size:12px}.flavor-intro{font-size:17px}.flavor-traits span{font-size:12px}.flavor-ingredients li{font-size:16px;padding-bottom:9px}.flavor-detail-copy h2{font-size:32px}.flavor-moment p{font-size:16px}.ingredient-note{font-size:14px}.flavor-buy{font-size:15px;width:calc(100% - 62px);min-height:52px;padding:14px 18px;justify-content:space-between}
+ .flavor-nutrition{padding:22px 16px 16px;margin-top:34px;border-radius:16px}.flavor-nutrition h2{font-size:33px;line-height:1.1}.flavor-nutrition p{font-size:14px}.flavor-nutrition table{font-size:15px;line-height:1.45}.flavor-nutrition th,.flavor-nutrition td{padding:9px 8px}.flavor-nutrition thead th{font-size:11px;padding:10px 8px}.flavor-nutrition th:first-child{width:71%}.nutrition-source{font-size:12px;line-height:1.6}
+ .closing-flavor-message{font-size:12px;line-height:1.6}.story-info .facts-step-2{max-width:100%}
+}
+@media(max-width:360px){.flavor-stage{height:210px;padding:12px 7px}.flavor-stage .ingredient-photo{height:45px}.flavor-card h2{font-size:23px}.flavor-discover{font-size:11px;padding:11px 7px;gap:5px}.flavor-detail-photo{height:365px;padding:16px 22px}.flavor-nutrition{padding:19px 12px 14px}.flavor-nutrition table{font-size:14px}.flavor-nutrition th,.flavor-nutrition td{padding:9px 6px}.flavor-nutrition h2{font-size:30px}.closing-flavor-message{font-size:11px}}
